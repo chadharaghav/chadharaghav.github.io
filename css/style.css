@@ -342,7 +342,11 @@ body:after {
   }
 
   .about-heading {
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+
+  .about-article {
+    font-size: 2rem;
   }
 
   .about-footnotes {
