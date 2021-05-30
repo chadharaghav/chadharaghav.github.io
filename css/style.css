@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("../img/landing-background.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.loader {
+/* .loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,7 +37,7 @@ body {
     opacity: 0;
     visibility: hidden;
   }
-}
+} */
 
 .navbar {
   position: fixed;
