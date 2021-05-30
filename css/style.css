@@ -229,6 +229,16 @@ body:after {
   /* color: #4ea5d9; */
 }
 
+@media screen and (max-width: 768px) {
+  .landing-heading {
+    font-size: 7rem;
+  }
+
+  .landing-subheading {
+    font-size: 4rem;
+  }
+}
+
 .scrolldown-anim {
   display: inline-flex;
   width: 80px;
