@@ -65,11 +65,11 @@ body:after {
 
 @media screen and (max-width: 768px) {
   .burger {
-    margin-right: 10vw;
+    margin-right: 5vw;
   }
 
   .brand {
-    margin-left: 10vw;
+    margin-left: 5vw;
   }
 }
 
