@@ -12,18 +12,10 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/landing-background.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  scroll-behavior: smooth;
-} */
-
 body {
   background: #000;
 }
+
 body:after {
   content: "";
   position: fixed;
@@ -37,28 +29,6 @@ body:after {
   background-size: cover;
 }
 
-/* .loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: white;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader-done {
-  animation: vanish 1s forwards;
-}
-
-@keyframes vanish {
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-} */
 
 .navbar {
   position: fixed;
@@ -236,11 +206,11 @@ body:after {
 
 @media screen and (max-width: 768px) {
   .landing-heading {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .landing-subheading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
