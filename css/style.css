@@ -189,6 +189,7 @@ body:after {
   font-size: 5rem;
   font-family: "Fredoka One", cursive;
   color: #cacaca;
+  margin: 0;
 }
 
 .golden:hover {
