@@ -467,7 +467,7 @@ body:after {
   font-size: 1.25rem;
 }
 
-@media (hover) {
+@media (hover: hover) {
   .project:hover {
     transform: scale(1.02);
   }
