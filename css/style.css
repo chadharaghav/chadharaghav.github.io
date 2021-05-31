@@ -437,7 +437,7 @@ body:after {
   text-shadow: 3px 3px 7px #ffbd1b;
 }
 
-.project {
+/* .project {
   background-size: cover;
   width: 60vw;
   border-radius: 0.5rem;
@@ -446,6 +446,17 @@ body:after {
   display: inline-block;
   margin: 1rem 0rem;
 
+  transform: translateX(-50%);
+  opacity: 0;
+} */
+
+.project {
+  background-size: cover;
+  width: 55vw;
+  border-radius: 0.5rem;
+  transition: transform 500ms ease;
+  display: inline-block;
+  margin: 1rem 0rem;
   transform: translateX(-50%);
   opacity: 0;
 }
@@ -467,7 +478,7 @@ body:after {
   font-size: 1.25rem;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   .project:hover {
     transform: scale(1.02);
   }
@@ -480,7 +491,7 @@ body:after {
   .project:hover .project-content {
     transform: translateY(0);
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .project {
