@@ -327,15 +327,11 @@ body:after {
   }
 
   .about-heading {
-    font-size: 5em;
+    font-size: 4em;
   }
 
   .about-article {
-    font-size: 2em;
-  }
-
-  .about-footnotes {
-    padding: 20px;
+    font-size: 1.5em;
   }
 
   .about-panel-two {
