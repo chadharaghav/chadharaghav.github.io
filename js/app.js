@@ -95,7 +95,7 @@ $(".skill-per").each(function () {
 // FOR ABOUT PAGE
 const faders = document.querySelectorAll(".fade-in");
 const appearOptions = {
-    threshold: 0.5
+    threshold: 0.4
 };
 
 const showOnScroll = new IntersectionObserver(function (entries, showOnScroll) {
