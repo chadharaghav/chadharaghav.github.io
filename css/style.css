@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
+@font-face {
+  font-family: "comicSans";
+  src: url("../fonts/comic-sans.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +108,7 @@ body:after {
   width: 40%;
   justify-content: space-around;
   list-style: none;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   font-size: 1.5rem;
   transition: transform 0.5s ease-in;
 }
@@ -224,7 +229,7 @@ body:after {
 .landing-subheading {
   padding: 20px;
   font-size: 2rem;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   color: #e51049;
   /* color: #4ea5d9; */
 }
@@ -333,7 +338,7 @@ body:after {
 .about-article {
   padding: 80px;
   font-size: 1.25rem;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   color: #cacaca;
   text-align: left;
 }
@@ -406,7 +411,7 @@ body:after {
   text-decoration: none;
   text-align: center;
   color: #ffbd1b;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   font-size: 1.5rem;
   margin: 10px;
 }
@@ -490,7 +495,7 @@ body:after {
     hsl(20 0% 0% / 0.3) 20%,
     hsl(0 0% 0% / 1)
   );
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   text-align: left;
   font-size: 1.25rem;
 }
@@ -592,7 +597,7 @@ body:after {
 
 .social-heading {
   color: #ffbd1b;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
 }
 
 .contact-social-element {
@@ -635,14 +640,14 @@ body:after {
 .contact-form label {
   font-size: 1.5rem;
   color: #ffbd1b;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   margin: 15px;
 }
 
 .contact-form input,
 .contact-form textarea {
   background: rgba(0, 0, 0, 0);
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   color: #cacaca;
   font-size: 1.5rem;
   margin: 15px;
@@ -746,7 +751,7 @@ footer {
   text-decoration: none;
   color: #cacaca;
   font-size: 1.5rem;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
   margin-right: 20px;
 }
 
@@ -758,7 +763,7 @@ footer {
 
 .copyright {
   color: #cacaca;
-  font-family: "Comic sans MS", "comic sans", cursive;
+  font-family: "comicSans";
 }
 
 .fa {
