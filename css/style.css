@@ -230,6 +230,12 @@ body:after {
 }
 
 @media screen and (max-width: 768px) {
+  .landing {
+    width: 100vh;
+    height: 100vh;
+    padding: 15px;
+  }
+
   .landing-heading {
     font-size: 6rem;
   }
