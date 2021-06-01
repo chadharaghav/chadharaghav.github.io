@@ -2,8 +2,8 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap"); */
 
 @font-face {
-  font-family: "cairo";
-  src: url("../fonts/cairo-v10-latin-regular.woff") format("woff");
+  font-family: "varela";
+  src: url("../fonts/varela-round-v13-latin-regular.woff") format("woff");
 }
 
 @font-face {
@@ -107,7 +107,7 @@ body:after {
   width: 40%;
   justify-content: space-around;
   list-style: none;
-  font-family: "cairo";
+  font-family: "varela";
   font-size: 1.5rem;
   transition: transform 0.5s ease-in;
 }
@@ -229,18 +229,18 @@ body:after {
 .landing-subheading {
   padding: 20px;
   font-size: 2rem;
-  font-family: "cairo";
+  font-family: "varela";
   color: #e51049;
   /* color: #4ea5d9; */
 }
 
 @media screen and (max-width: 768px) {
   .landing-heading {
-    font-size: 6rem;
+    font-size: 75px;
   }
 
   .landing-subheading {
-    font-size: 2rem;
+    font-size: 30px;
     max-width: 18ch;
     margin-left: auto;
     margin-right: auto;
@@ -343,7 +343,7 @@ body:after {
   padding: 80px;
   font-size: 1.25rem;
   line-height: 1.6;
-  font-family: "cairo";
+  font-family: "varela";
   color: #cacaca;
   text-align: left;
 }
@@ -412,7 +412,7 @@ body:after {
   text-decoration: none;
   text-align: center;
   color: #ffbd1b;
-  font-family: "cairo";
+  font-family: "varela";
   font-size: 1.5rem;
   margin: 10px;
 }
@@ -507,7 +507,7 @@ body:after {
     hsl(20 0% 0% / 0.3) 20%,
     hsl(0 0% 0% / 1)
   );
-  font-family: "cairo";
+  font-family: "varela";
   text-align: left;
   font-size: 1.25rem;
 }
@@ -551,6 +551,7 @@ body:after {
 
 .project-description {
   margin: 1rem 0rem;
+  line-height: 1.5;
 }
 
 .project-button {
@@ -609,7 +610,7 @@ body:after {
 
 .social-heading {
   color: #ffbd1b;
-  font-family: "cairo";
+  font-family: "varela";
 }
 
 .contact-social-element {
@@ -652,14 +653,14 @@ body:after {
 .contact-form label {
   font-size: 1.5rem;
   color: #ffbd1b;
-  font-family: "cairo";
+  font-family: "varela";
   margin: 15px;
 }
 
 .contact-form input,
 .contact-form textarea {
   background: rgba(0, 0, 0, 0);
-  font-family: "cairo";
+  font-family: "varela";
   color: #cacaca;
   font-size: 1.5rem;
   margin: 15px;
@@ -763,7 +764,7 @@ footer {
   text-decoration: none;
   color: #cacaca;
   font-size: 1.5rem;
-  font-family: "cairo";
+  font-family: "varela";
   margin-right: 20px;
 }
 
@@ -775,7 +776,7 @@ footer {
 
 .copyright {
   color: #cacaca;
-  font-family: "cairo";
+  font-family: "varela";
 }
 
 .fa {
