@@ -325,14 +325,16 @@ body:after {
 
 .about-heading {
   font-size: 5rem;
+  line-height: 1;
   font-family: "Fredoka One", cursive;
   color: #cacaca;
-  text-shadow: 3px 3px 7px #ffbd1b;
+  /* text-shadow: 3px 3px 7px #ffbd1b; */
 }
 
 .about-article {
   padding: 80px;
   font-size: 1.25rem;
+  line-height: 1.6;
   font-family: "comicSans";
   color: #cacaca;
   text-align: left;
@@ -359,10 +361,10 @@ body:after {
     font-size: 1.5em;
   }
 
-  .about-panel-two {
+  /* .about-panel-two {
     border: 1px dashed #ffbd1bb4;
     border-top: 0px;
-  }
+  } */
 }
 
 .resume {
