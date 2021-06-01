@@ -460,7 +460,7 @@ body:after {
   color: #cacaca;
   margin-top: 8vh;
   margin-bottom: 8vh;
-  text-shadow: 3px 3px 7px #ffbd1b;
+  /* text-shadow: 3px 3px 7px #ffbd1b; */
 }
 
 /* .project {
