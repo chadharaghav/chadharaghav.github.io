@@ -13,7 +13,7 @@
 }
 
 .loader {
-  background-color: #000;
+  background-color: #000 !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +35,6 @@
     visibility: hidden;
   }
 }
-
 
 body {
   background: #000;
