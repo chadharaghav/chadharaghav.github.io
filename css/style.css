@@ -241,6 +241,7 @@ body:after {
 
   .landing-subheading {
     font-size: 2rem;
+    max-width: 18ch;
   }
 }
 
