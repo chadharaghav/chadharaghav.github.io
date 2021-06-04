@@ -245,7 +245,7 @@ body:after {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-size: 200%;
+  background-size: 400%;
   animation: name-gradient-change 10s infinite alternate;
   margin: 0;
 }
