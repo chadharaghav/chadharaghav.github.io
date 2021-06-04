@@ -90,7 +90,25 @@ $(".skill-per").each(function () {
   $(this).css("width", per + "%");
 });
 
-// ********************************* SCROLL OBSERVER ********************************************
+// ********************************* INTERSECTION OBSERVERS ********************************************
+
+// FOR NAVIGATION BRAND ANIMATION
+const brand = document.querySelector(".nav-brand-text");
+// const landing = document.querySelector(".landing");  // already declared above!!
+const landingHeadingOptions = {};
+
+const landingHeadingObserver = new IntersectionObserver(function(entries, landingHeadingObserver) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      brand.classList.add("nav-brand-text-anim");
+    } else {
+      brand.classList.remove("nav-brand-text-anim");
+    }
+  });
+}, landingHeadingOptions);
+
+landingHeadingObserver.observe(landingHeading);
+
 
 // FOR ABOUT PAGE
 const faders = document.querySelectorAll(".fade-in");
