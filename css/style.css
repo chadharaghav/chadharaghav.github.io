@@ -65,22 +65,22 @@ body:after {
 .top-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgb(0, 0, 0);
   color: white;
   min-height: 8vh;
 }
 
 .brand {
-  margin-right: 7vw;
+  margin-left: 20vw;
 }
 
 .nav-brand-text {
   text-decoration: None !important;
   font-family: "Fredoka one", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffbd1b;
-  transform: translateY(5px);
+  transform: translateY(10px);
   position: absolute;
 }
 
@@ -102,19 +102,20 @@ body:after {
 }
 
 .burger {
-  /* margin-left: auto; */
-  /* margin-right: 20vw; */
-  position: fixed;
-  display: inline-block;
-  right: 0;
-  margin-right: 10vw;
+  margin-left: auto;
+  margin-right: 20vw;
 }
 
 @media screen and (max-width: 768px) {
+  .burger {
+    margin-right: 5vw;
+  }
+
   .brand {
-    transform: translateX(-55px);
+    margin-left: 5vw;
   }
 }
+
 
 .nav-links {
   display: flex;
